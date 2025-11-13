@@ -1,0 +1,70 @@
+body{
+    background-color: #8D9990;
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    display: grid;
+}
+header{
+    background-color: #3F4D42;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.75rem;
+    color: aliceblue;
+    border: .5rem solid #E2E6E3;
+}
+main{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    padding: 5rem;
+}
+header{
+    
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+
+footer{
+    font-size: 1.75rem;
+   grid-column: 1/4;
+    background-color: #3F4D42;
+    border: .5rem solid #E2E6E3;
+}
+.paragraph{
+    font-size: x-large;
+    padding: 1rem;
+}
+.sidenav{
+    padding: 1rem;
+    background-color: #d8d8d8;
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+.name{
+    padding: 2rem;
+}
+nav{
+    color: #d8d8d8;
+}
+a{
+    color: #d8d8d8;
+}
+.gallery{
+    background-color: #8D9990;
+    border: 1.5rem solid #d8d8d8;
+    padding: 2rem;
+}
+p{
+    font-size: x-large;
+}
+h4{
+    font-size: 3rem;
+}
+@media(min-width: 800px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+  
+}
