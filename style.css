@@ -63,7 +63,8 @@ h4{
 @media(min-width: 800px) {
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-column: 2/4;
+        grid-row: 2/4;
         gap: 1rem;
     }
   
