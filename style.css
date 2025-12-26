@@ -5,6 +5,9 @@ body{
     margin: 0;
     display: grid;
 }
+img{
+    max-width: 100%;
+}
 header{
     background-color: #3F4D42;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
